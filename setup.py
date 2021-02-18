@@ -30,7 +30,6 @@ setup(
     entry_points={
         "console_scripts": [
             "rembg=rembg.cmd.cli:main",
-            "rembg-server=rembg.cmd.server:main",
         ],
     },
 )
