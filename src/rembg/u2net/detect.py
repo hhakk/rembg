@@ -53,7 +53,6 @@ def download_file_from_google_drive(id, fname, destination):
 
 def load_model(model_name: str = "u2net"):
     hasher = Hasher()
-
     if model_name == "u2netp":
         net = u2net.U2NETP(3, 1)
         path = os.environ.get(
