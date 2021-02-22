@@ -1,9 +1,7 @@
 numpy==1.19.5
 pillow==8.0.1
 scikit-image==0.17.2
--f https://download.pytorch.org/whl/torch_stable.html
 torch~=1.7.0
--f https://download.pytorch.org/whl/torch_stable.html
 torchvision~=0.8.1
 tqdm==4.51.0
 requests==2.24.0
